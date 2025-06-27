@@ -46,7 +46,6 @@ export const App = () => (
       <MovieList movies={moviesFromServer} />
     </div>
 
-    {/* Atributul data-cy a fost adăugat */}
     <div className="sidebar" data-cy="Sidebar">
       Sidebar will be here
     </div>
